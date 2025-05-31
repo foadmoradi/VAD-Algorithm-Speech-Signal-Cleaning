@@ -13,7 +13,7 @@ If you get "OSError: PortAudio library not found":
 
 sudo apt install portaudio19-dev  # Ubuntu/Debian
 
-🔍 How it works:
+## 🔍 How it works:
 1️⃣ SegmentationFunction:
 
     Chops audio into 25ms Hamming windows (40% overlap)
@@ -27,7 +27,7 @@ sudo apt install portaudio19-dev  # Ubuntu/Debian
 
     Reconstructs clean audio via overlap-add
 
-✅ Pros:
+## ✅ Pros:
 
     Lightning-fast (O(n) complexity)
 
@@ -37,13 +37,13 @@ sudo apt install portaudio19-dev  # Ubuntu/Debian
 
     Preserves speech clarity
 
-⚠️ Limitations:
+## ⚠️ Limitations:
 
     Musical noise in low-SNR
 
     Struggles with sudden noises
 
-💡 Applications:
+## 💡 Applications:
 
     ASR preprocessing
 
@@ -51,4 +51,10 @@ sudo apt install portaudio19-dev  # Ubuntu/Debian
 
     Hearing assistive devices
 
-📈 Why it matters: This algorithm demonstrates how classical DSP achieves real-time noise reduction with minimal compute – perfect for edge devices!
+## 📈 Why it matters: This algorithm demonstrates how classical DSP achieves real-time noise reduction with minimal compute – perfect for edge devices!
+
+## 👤 Author
+Foad Moradi.
+Find me on social media utilizing the following hashtag:
+#foadmoradimusic
+
