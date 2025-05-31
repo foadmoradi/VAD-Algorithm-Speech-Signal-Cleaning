@@ -1,6 +1,6 @@
 # VAD-Algorithm-Speech-Signal-Cleaning
 
-## 🚀 VAD is accurate and efficient algorithm for cleaning background noise in speech signals. Here, you find a detailed implementation of the algorithm.
+🚀 VAD is accurate and efficient algorithm for cleaning background noise in speech signals. Here, you find a detailed implementation of the algorithm.
 
 This Python implementation cleans noisy recordings using spectral subtraction + voice activity detection (VAD).
 
