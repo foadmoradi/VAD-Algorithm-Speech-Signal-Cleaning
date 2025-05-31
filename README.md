@@ -6,11 +6,11 @@ VAD is accurate and efficient algorithm for cleaning background noise in speech 
 🔧 Installation Note:
 
 To load sound and play denoised speech signal you use soundfile and sounddevice paxckages. Don't forget to install them:
-bash
+
 pip install soundfile sounddevice
 
 If you get "OSError: PortAudio library not found":
-bash
+
 sudo apt install portaudio19-dev  # Ubuntu/Debian
 
 🔍 How it works:
