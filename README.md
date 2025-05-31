@@ -14,42 +14,42 @@ If you get "OSError: PortAudio library not found":
 sudo apt install portaudio19-dev  # Ubuntu/Debian
 
 ## 🔍 How it works:
+
 1️⃣ SegmentationFunction:
+Chops audio into 25ms Hamming windows (40% overlap)
 
-    Chops audio into 25ms Hamming windows (40% overlap)
-    2️⃣ VAD_Function:
+2️⃣ VAD_Function:
+Flags speech/noise using spectral distance + hangover logic
 
-    Flags speech/noise using spectral distance + hangover logic
-    3️⃣ SpeechEnhancement:
+3️⃣ SpeechEnhancement:
+Estimates noise → subtracts it → suppresses musical artifacts
 
-    Estimates noise → subtracts it → suppresses musical artifacts
-    4️⃣ AddingOverlaps:
-
-    Reconstructs clean audio via overlap-add
+4️⃣ AddingOverlaps:
+Reconstructs clean audio via overlap-add
 
 ## ✅ Pros:
 
-    Lightning-fast (O(n) complexity)
+1️⃣ Lightning-fast (O(n) complexity)
 
-    Zero training needed
+2️⃣ Zero training needed
 
-    Crushes stationary noise (fans/hums)
+3️⃣ Crushes stationary noise (fans/hums)
 
-    Preserves speech clarity
+4️⃣ Preserves speech clarity
 
 ## ⚠️ Limitations:
 
-    Musical noise in low-SNR
+1️⃣ Musical noise in low-SNR
 
-    Struggles with sudden noises
+2️⃣ Struggles with sudden noises
 
 ## 💡 Applications:
 
-    ASR preprocessing
+1️⃣ ASR preprocessing
 
-    Podcast/old recording restoration
+2️⃣ Podcast/old recording restoration
 
-    Hearing assistive devices
+3️⃣ Hearing assistive devices
 
 ## 📈 Why it matters: This algorithm demonstrates how classical DSP achieves real-time noise reduction with minimal compute – perfect for edge devices!
 
