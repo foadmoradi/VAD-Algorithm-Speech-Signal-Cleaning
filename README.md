@@ -52,7 +52,9 @@ Reconstructs clean audio via overlap-add
 
 3️⃣ Hearing assistive devices
 
-## 📈 Why it matters: This algorithm demonstrates how classical DSP achieves real-time noise reduction with minimal compute – perfect for edge devices!
+## 📈 Why it matters:
+
+This algorithm demonstrates how classical DSP achieves real-time noise reduction with minimal compute – perfect for edge devices!
 
 ## 👤 Author
 Foad Moradi.
