@@ -1,14 +1,16 @@
 # VAD-Algorithm-Speech-Signal-Cleaning
 VAD is accurate and efficient algorithm for cleaning background noise in speech signals. Here, you find a detailed implementation of the algorithm.
 
-🚀 Just launched a powerful speech enhancement tool from my freelancing work in speech signal processing! This Python implementation cleans noisy recordings using spectral subtraction + voice activity detection (VAD). Open-source on GitHub:
-👉 [GitHub Link]
+🚀 Just launched a powerful speech enhancement tool from my freelancing work in speech signal processing! This Python implementation cleans noisy recordings using spectral subtraction + voice activity detection (VAD).
 
 🔧 Installation Note:
-bash
 
+To load sound and play denoised speech signal you use soundfile and sounddevice paxckages. Don't forget to install them:
+bash
 pip install soundfile sounddevice
-# If you get "OSError: PortAudio library not found":
+
+If you get "OSError: PortAudio library not found":
+bash
 sudo apt install portaudio19-dev  # Ubuntu/Debian
 
 🔍 How it works:
